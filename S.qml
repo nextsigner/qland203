@@ -134,34 +134,34 @@ Item {
         onTriggered: {
             if(app.lnl(9, 17)==='activo'){
                 img1.visible=true
-                img1.source="../../h/editor_1.png"
+                img1.source="../../../h/editor_1.png"
                 img1.width=r.width*0.6
                 te1.text='<b>Editor QML/JS de Qt Creator</b><br>\uf063'
                 te1.font.pixelSize=app.fs
             }else if(app.lnl(17, 24)==='activo'){
                 img1.visible=true
-                img1.source="../../h/editor_2.png"
+                img1.source="../../../h/editor_2.png"
                 img1.width=r.width*0.6
                 te1.text='<b>Notepad++</b><br>\uf063'
                 te1.font.pixelSize=app.fs
             }else if(app.lnl(24, 31)==='activo'){
                 img1.visible=true
-                img1.source="../../h/editor_3.png"
+                img1.source="../../../h/editor_3.png"
                 img1.width=r.width*0.6
                 te1.text='<b>VIM</b><br>\uf063'
                 te1.font.pixelSize=app.fs
             }else if(app.lnl(31, 48)==='activo'){
                 img1.visible=true
-                img1.source="../../h/editor_4.png"
+                img1.source="../../../h/editor_4.png"
                 img1.width=r.width*0.6
                 te1.text='<b>Qt Design</b><br>\uf063'
                 te1.font.pixelSize=app.fs
             }else if(app.lnl(48, 52)==='activo'){
-                img2.source="../../h/js.png"
+                img2.source="../../../h/js.png"
                 img2.width=r.width*0.6
                 img2.visible=false
                 ge1.visible=true
-                img1.source="../../h/qml.png"
+                img1.source="../../../h/qml.png"
                 img1.width=r.width*0.6
                 img1.visible=true
                 te2.text='\uf063'
@@ -169,11 +169,11 @@ Item {
                 te1.text=''
                 marco1.visible=false
             }else if(app.lnl(52, 57)==='activo'){
-                img2.source="../../h/qt-icon.png"
+                img2.source="../../../h/qt-icon.png"
                 img2.width=r.width*0.25
                 img2.visible=true
                 ge1.visible=false
-                img1.source="../../h/digia-logo.png"
+                img1.source="../../../h/digia-logo.png"
                 img1.width=r.width*0.25
                 img1.visible=true
                 te2.text='+'
@@ -182,11 +182,11 @@ Item {
                 marco1.visible=false
                 marco2.visible=false
             }else if(app.lnl(57, 60)==='activo'){
-                img2.source="../../h/qt-icon.png"
+                img2.source="../../../h/qt-icon.png"
                 img2.width=r.width*0.25
                 img2.visible=true
                 ge1.visible=false
-                img1.source="../../h/digia-logo.png"
+                img1.source="../../../h/digia-logo.png"
                 img1.width=r.width*0.25
                 img1.visible=true
                 te2.text=' <b>QtQuick</b>'
@@ -196,7 +196,7 @@ Item {
                 marco2.visible=false
             }else if(app.lnl(60, 82)==='activo'){
                 img1.visible=false
-                img2.source="../../h/touch1.png"
+                img2.source="../../../h/touch1.png"
                 img2.width=r.width*0.5
                 img2.visible=false
                 ge1.visible=true
